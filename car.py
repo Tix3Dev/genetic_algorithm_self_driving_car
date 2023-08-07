@@ -9,20 +9,27 @@ CAR_SIZE_X = 60
 CAR_SIZE_Y = 60
 
 class Car:
-    def __init__(self, screen, border_color):
+    def __init__(self, screen, game_map, border_color):
         self.screen = screen
 
         self.sprite = pygame.image.load('assets/car.png').convert()
         self.sprite = pygame.transform.scale(self.sprite, (CAR_SIZE_X, CAR_SIZE_Y))
         self.rotated_sprite = self.sprite 
+
+        self.game_map = game_map
         self.border_color = border_color 
 
         self.position = [830, 920]
         self.angle = 0
-        self.speed = random.randint(3, 10) # TODO: just testing, final speed is const
+        # self.speed = random.randint(3, 10) # TODO: just testing, final speed is const
+        self.speed = 1
         self.center = [self.position[0] + CAR_SIZE_X / 2, self.position[1] + CAR_SIZE_Y / 2]
 
         self.radars = []
+        # we now need to do this already, oltherwise first training data GA gets is all zero
+        # From -45 To 75 With Step-Size 45 Check Radar
+        for d in range(-45, 75, 45):
+            self.check_radar(d)
 
         self.alive = True
         self.dist_passed = 0 # TODO: I could add time_passed, mostly makes sense if car should learn to accelerate too
@@ -37,22 +44,23 @@ class Car:
             pygame.draw.line(self.screen, (0, 255, 0), self.center, position, 1)
             pygame.draw.circle(self.screen, (0, 255, 0), position, 5)
 
-    def check_collision(self, game_map):
+    def check_collision(self):
         self.alive = True
         for point in self.corners:
             # If Any Corner Touches Border Color -> Crash
             # Assumes Rectangle
-            if game_map.get_at((int(point[0]), int(point[1]))) == self.border_color:
+            if self.game_map.get_at((int(point[0]), int(point[1]))) == self.border_color:
                 self.alive = False
                 break
 
-    def check_radar(self, degree, game_map):
+    def check_radar(self, degree):
         length = 0
         x = int(self.center[0] + math.cos(math.radians(360 - (self.angle + degree))) * length)
         y = int(self.center[1] + math.sin(math.radians(360 - (self.angle + degree))) * length)
 
+        # TODO: this is fantastic, there is a max length to the radars, just like in the DNA
         # While We Don't Hit self.border_color AND length < 300 (just a max) -> go further and further
-        while not game_map.get_at((x, y)) == self.border_color and length < 300:
+        while not self.game_map.get_at((x, y)) == self.border_color and length < 300:
             length = length + 1
             x = int(self.center[0] + math.cos(math.radians(360 - (self.angle + degree))) * length)
             y = int(self.center[1] + math.sin(math.radians(360 - (self.angle + degree))) * length)
@@ -61,7 +69,7 @@ class Car:
         dist = int(math.sqrt(math.pow(x - self.center[0], 2) + math.pow(y - self.center[1], 2)))
         self.radars.append([(x, y), dist])
     
-    def update(self, game_map):
+    def update(self):
         # Get Rotated Sprite And Move Into The Right X-Direction
         # Don't Let The Car Go Closer Than 20px To The Edge
         self.rotated_sprite = self.rotate_center(self.sprite, self.angle)
@@ -90,17 +98,17 @@ class Car:
         self.corners = [left_top, right_top, left_bottom, right_bottom]
 
         # Check Collisions And Clear Radars
-        self.check_collision(game_map)
+        self.check_collision()
         self.radars.clear()
 
-        # From -90 To 120 With Step-Size 45 Check Radar
-        for d in range(-90, 120, 45):
-            self.check_radar(d, game_map)
+        # From -45 To 75 With Step-Size 45 Check Radar
+        for d in range(-45, 75, 45):
+            self.check_radar(d)
 
     def get_data(self):
         # Get Distances To Border
         radars = self.radars
-        return_values = [0, 0, 0, 0, 0]
+        return_values = [0, 0, 0]
         for i, radar in enumerate(radars):
             return_values[i] = int(radar[1] / 30)
 

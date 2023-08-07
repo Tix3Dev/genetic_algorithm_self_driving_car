@@ -10,27 +10,31 @@ class Game:
         self.game_map = pygame.image.load('assets/map.png').convert()
 
         self.cars = []
-        self.popul_size = 3
+        self.popul_size = 1
         self.gen_count = 0
         self.frame_count = 0
-        self.frame_lifespan = 60 # -> 10sec lifespan for 60fps
+        self.frame_lifespan = 600 # -> 10sec lifespan for 60fps
         
         self.border_color = (255, 255, 255, 255)
 
         for i in range(self.popul_size):
-            self.cars.append(Car(self.screen, self.border_color))
+            self.cars.append(Car(self.screen, self.game_map, self.border_color))
 
     def gameloop(self):
         self.screen.blit(self.game_map, (0, 0))
 
         still_alive_count = 0
 
+        # debugging purposes
+        # time.sleep(1)
+
         for i, car in enumerate(self.cars):
+            print("Action taken for Car No.", i, " using this radar data:", car.get_data())
             # evaluate current situation using sensors and decision based on DNA
             decision = 0.3 # irl should be return value from function, given state
             car.angle += decision
 
-            car.update(self.game_map)
+            car.update()
 
             if not car.is_alive():
                 continue
@@ -48,7 +52,7 @@ class Game:
             
             # this is just for testing
             for i in range(self.popul_size):
-                self.cars[i] = Car(self.screen, self.border_color)
+                self.cars[i] = Car(self.screen, self.game_map, self.border_color)
 
             self.gen_count += 1
             self.frame_count = 0

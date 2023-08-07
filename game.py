@@ -13,12 +13,12 @@ class Game:
         self.popul_size = 3
         self.gen_count = 0
         self.frame_count = 0
-        self.frame_lifespan = 600 # -> 10sec lifespan for 60fps
+        self.frame_lifespan = 60 # -> 10sec lifespan for 60fps
         
         self.border_color = (255, 255, 255, 255)
 
         for i in range(self.popul_size):
-            self.cars.append(Car(self.screen))
+            self.cars.append(Car(self.screen, self.border_color))
 
     def gameloop(self):
         self.screen.blit(self.game_map, (0, 0))
@@ -27,9 +27,8 @@ class Game:
 
         for i, car in enumerate(self.cars):
             # evaluate current situation using sensors and decision based on DNA
-            decision = False
-            if decision:
-                car.angle += 1
+            decision = 0.3 # irl should be return value from function, given state
+            car.angle += decision
 
             car.update(self.game_map)
 
@@ -38,7 +37,7 @@ class Game:
             still_alive_count += 1
 
             # set fitness stuff
-            print("Car still alive | Reward for that: ", car.get_reward())
+            print("Car No.", i, " still alive | Reward for that:", car.get_reward())
 
             car.draw()
 
@@ -46,14 +45,13 @@ class Game:
         if self.frame_count == self.frame_lifespan or still_alive_count == 0:
             # go through each car and evaluate the whole population like that (we already have fitness stuff)
             # after this the cars array will be different so no additional code after this needed (except for those two lines)
-
             
+            # this is just for testing
             for i in range(self.popul_size):
-                self.cars[i] = Car(self.screen)
+                self.cars[i] = Car(self.screen, self.border_color)
 
             self.gen_count += 1
-            frame_count = 0
-
+            self.frame_count = 0
         
         text = self.generation_font.render("Generation: " + str(self.gen_count), True, (0, 0, 0))
         text_rect = text.get_rect()
@@ -64,40 +62,3 @@ class Game:
         text_rect = text.get_rect()
         text_rect.center = (900, 490)
         self.screen.blit(text, text_rect)
-
-        pygame.display.flip()
-
-        # while True:
-        #     for i, car in enumerate(self.cars):
-        #         pass
-        #         # car.speed += 1
-        #         # car.angle += 1
-        #
-        #     still_alive = 0
-        #     for i, car in enumerate(self.cars):
-        #         if car.is_alive():
-        #             still_alive += 1
-        #             car.update(game_map)
-        #             
-        #             # TODO: increase fitness
-        #
-        #     print(still_alive)
-        #     if still_alive == 0:
-        #         break
-        #
-        #     self.screen.blit(game_map, (0, 0))
-        #     for car in self.cars:
-        #         if car.is_alive():
-        #             car.draw()
-        #
-        #     text = generation_font.render("Generation: " + str(self.gen_count), True, (0,0,0))
-        #     text_rect = text.get_rect()
-        #     text_rect.center = (900, 450)
-        #     self.screen.blit(text, text_rect)
-        #
-        #     text = alive_font.render("Still Alive: " + str(still_alive), True, (0, 0, 0))
-        #     text_rect = text.get_rect()
-        #     text_rect.center = (900, 490)
-        #     self.screen.blit(text, text_rect)
-        #
-        #     pygame.display.flip()

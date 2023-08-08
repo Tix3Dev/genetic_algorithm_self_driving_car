@@ -25,12 +25,13 @@ class Game:
         self.first_place_reward = 0.4
         self.mutation_prob = 0.005 # this is not percent
         self.crossover_len_divisor = 40
-        self.elite_percent_of_popul = 15 # this is in percent
+        self.elite_ratio_of_popul = 0.2 # this is not percent
         #################################### tweaking mostly in here
         self.generation_count = 0
         self.frame_count = 0
         self.frame_lifespan = 1200 # -> e.g. 600 10sec lifespan for 60fps
 
+        self.elitism_sort_cars = []
         self.mating_pool = []
         
         self.border_color = (255, 255, 255, 255)
@@ -75,6 +76,11 @@ class Game:
             for i in range(self.popul_size):
                 self.cars[i].fitness /= max_fitness
 
+            # elitism (TODO: probably not very efficient)
+            self.elitism_sort_cars = sorted(self.cars, key=lambda x: x.fitness, reverse=True) # idx=0 -> best
+            for car in self.elitism_sort_cars:
+                print(car.fitness)
+
             # stats
             self.avrg_abs_fit_vals.append(total_fitness_sum / self.popul_size)
             # -> print stats
@@ -96,8 +102,12 @@ class Game:
                     self.mating_pool.append(self.cars[i])
 
             # select new generation
-
             for i in range(self.popul_size):
+                # elitism - keep the best few cars (based on ratio of population)
+                if i < self.popul_size * self.elite_ratio_of_popul:
+                    self.cars[i] = self.elitism_sort_cars[i]
+                    continue
+
                 parent1 = random.choice(self.mating_pool)
                 self.mating_pool.remove(parent1)
                 parent2 = random.choice(self.mating_pool)

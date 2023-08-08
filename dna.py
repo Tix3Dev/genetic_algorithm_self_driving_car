@@ -11,7 +11,36 @@ class DNA:
         for a in range(self.precision+1):
             for b in range(self.precision+1):
                 for c in range(self.precision+1):
-                    self.genes[self.key_repr([a, b, c])] = round(random.uniform(-self.max_steer, self.max_steer), 1)
-        
+                    self.genes[self.key_repr([a, b, c])] = self.random_steer()
+
+    def random_steer(self):
+        return round(random.uniform(-self.max_steer, self.max_steer), 1)
+
     def key_repr(self, inp):
         return ",".join(str(x) for x in inp)
+
+    def crossover_with(self, other_parent):
+        swapped_already = []
+        
+        crossover_len = random.randint(0, self.dna_len)
+        for i in range(crossover_len):
+            a = random.randint(0, self.precision)
+            b = random.randint(0, self.precision)
+            c = random.randint(0, self.precision)
+            
+            inp = [a, b, c]
+            if inp in swapped_already:
+                # NOTE: this will most likely be called at some point,
+                # decreasing the total number of swapped genes at the end,
+                # since it will already skip to another iteration (and won't retry)
+                continue
+
+            temp = self.genes[self.key_repr(inp)]
+            self.genes[self.key_repr(inp)] = other_parent.genes[self.key_repr(inp)]
+            other_parent.genes[self.key_repr(inp)] = temp
+
+    def mutation(self, prob):
+        for gen in self.genes:
+            r = random.randint(1, 1/prob)
+            if r == 1:
+                gen = self.random_steer()

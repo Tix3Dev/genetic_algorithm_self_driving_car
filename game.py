@@ -1,4 +1,5 @@
 import pygame
+import random
 
 from car import Car
 
@@ -12,7 +13,7 @@ class Game:
 
         self.cars = []
         self.popul_size = 3
-        self.gen_count = 0
+        self.generation_count = 0
         self.frame_count = 0
         self.frame_lifespan = 1200 # -> e.g. 600 10sec lifespan for 60fps
 
@@ -31,10 +32,7 @@ class Game:
         # DEBUG
         # time.sleep(1)
 
-        for i, car in enumerate(self.cars):
-            # DEBUG
-            # print("Action taken for Car No.", i, " using this radar data:", car.get_data())
-
+        for car in self.cars:
             # based on current radar situation, let DNA decide what to do next
             decision = car.dna.genes[car.dna.key_repr(car.get_data())]
             car.angle += decision
@@ -51,15 +49,6 @@ class Game:
                 # reaching this means car didn't crash till end, which is very good
                 car.fitness *= 2
 
-            # DEBUG
-            # print(car.fitness)
-            # print("Car No.", i, " still alive | Reward for that:", car.get_reward())
-
-
-        # print("flaggy one")
-        # for car in self.cars:
-        #     print(car.fitness)
-
         self.frame_count += 1
         if self.frame_count == self.frame_lifespan or still_alive_count == 0:
             # TODO: average fitness states etc.
@@ -73,32 +62,30 @@ class Game:
             for car in self.cars:
                 car.fitness /= max_fitness
 
-            # print("flaggy two")
-            # for car in self.cars:
-            #     print(car.fitness)
-            #
-            # quit()
-
             # create mating pool
             for car in self.cars:
                 # fit cars have a higher chance of becoming parents / to mate
                 significance = int(round(car.fitness * 100, 0))
                 for i in range(significance):
-                    mating_pool.append(car)
+                    self.mating_pool.append(car)
 
             # select new generation
             for car in self.cars:
+                parent1 = random.choice(self.mating_pool)
+                self.mating_pool.remove(parent1)
+                parent2 = random.choice(self.mating_pool)
+                self.mating_pool.append(parent1)
 
+                child_dna = parent1.dna
+                child_dna.crossover_with(parent2.dna)
+                child_dna.mutation(0.1)
 
+                car = Car(self.screen, self.game_map, self.border_color, child_dna) # TODO: check if this changes car
             
-            # DEBUG
-            # for i in range(self.popul_size):
-            #     self.cars[i] = Car(self.screen, self.game_map, self.border_color)
-
-            self.gen_count += 1
+            self.generation_count += 1
             self.frame_count = 0
         
-        text = self.generation_font.render("Generation: " + str(self.gen_count), True, (0, 0, 0))
+        text = self.generation_font.render("Generation: " + str(self.generation_count), True, (0, 0, 0))
         text_rect = text.get_rect()
         text_rect.center = (900, 450)
         self.screen.blit(text, text_rect)

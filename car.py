@@ -10,7 +10,7 @@ CAR_SIZE_X = 60
 CAR_SIZE_Y = 60
 
 class Car:
-    def __init__(self, screen, game_map, border_color):
+    def __init__(self, screen, game_map, border_color, dna=None):
         self.screen = screen
 
         self.sprite = pygame.image.load('assets/car.png').convert()
@@ -22,11 +22,13 @@ class Car:
 
         self.position = [830, 920]
         self.angle = 0
-        # self.speed = random.randint(3, 10) # TODO: just testing, final speed is const
         self.speed = 4
         self.center = [self.position[0] + CAR_SIZE_X / 2, self.position[1] + CAR_SIZE_Y / 2]
 
-        self.dna = DNA()
+        if dna:
+            self.dna = dna
+        else:
+            self.dna = DNA()
         self.fitness = 0
 
         self.radars = []

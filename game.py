@@ -24,20 +24,37 @@ class Game:
         self.popul_size = 50
         self.first_place_reward = 0.4
         self.mutation_prob = 0.005 # this is not percent
-        self.crossover_len_divisor = 40
+        self.crossover_len_divisor = 30
         self.elite_ratio_of_popul = 0.2 # this is not percent
         #################################### tweaking mostly in here
         self.generation_count = 0
         self.frame_count = 0
         self.frame_lifespan = 1200 # -> e.g. 600 10sec lifespan for 60fps
 
-        self.elitism_sort_cars = []
         self.mating_pool = []
         
         self.border_color = (255, 255, 255, 255)
 
         for i in range(self.popul_size):
             self.cars.append(Car(self.screen, self.game_map, self.border_color))
+
+    def graph(self):
+        # -> calculations
+        total_fitness_sum = 0
+        for i in range(self.popul_size):
+            total_fitness_sum += self.cars[i].fitness
+        self.avrg_abs_fit_vals.append(total_fitness_sum / self.popul_size)
+
+        # -> print stats
+        print("Generation", self.generation_count,
+              " -> Average absolute fitness:", total_fitness_sum / self.popul_size)
+
+        # -> plot stats
+        self.ax.step(np.arange(len(self.avrg_abs_fit_vals)),
+                     self.avrg_abs_fit_vals, linewidth=2.5)
+        plt.show(block=False)
+        plt.draw()
+        plt.pause(0.01)
 
     def gameloop(self):
         self.screen.blit(self.game_map, (0, 0))
@@ -60,44 +77,24 @@ class Game:
 
         self.frame_count += 1
         if self.frame_count == self.frame_lifespan or still_alive_count == 0:
-            # normalise fitness
-            total_fitness_sum = 0
-            max_fitness = 0
-            max_fitness_car = self.cars[0]
-            for i in range(self.popul_size):
-                total_fitness_sum += self.cars[i].fitness
-                if self.cars[i].fitness > max_fitness:
-                    max_fitness = self.cars[i].fitness
-                    max_fitness_car = self.cars[i]
+            # elitism
+            elitism_sort_cars = sorted(self.cars, key=lambda x: x.fitness, reverse=True) # idx=0 -> best
+            self.cars = elitism_sort_cars
 
-            max_fitness += self.first_place_reward
-            max_fitness_car.fitness += self.first_place_reward
-
-            for i in range(self.popul_size):
-                self.cars[i].fitness /= max_fitness
-
-            # elitism (TODO: probably not very efficient)
-            self.elitism_sort_cars = sorted(self.cars, key=lambda x: x.fitness, reverse=True) # idx=0 -> best
-            for car in self.elitism_sort_cars:
+            for car in self.cars:
                 print(car.fitness)
 
+            # first car reward
+            self.cars[0].fitness += self.first_place_reward
+            max_fitness = self.cars[0].fitness + self.first_place_reward
+
             # stats
-            self.avrg_abs_fit_vals.append(total_fitness_sum / self.popul_size)
-            # -> print stats
-            print("Generation", self.generation_count,
-                  " -> Average absolute fitness:", total_fitness_sum / self.popul_size)
-            # -> plot stats
-            self.ax.step(0.5 + np.arange(len(self.avrg_abs_fit_vals)),
-                         self.avrg_abs_fit_vals, linewidth=2.5)
-            plt.show(block=False)
-            plt.draw()
-            plt.pause(0.01)
+            self.graph()
 
             # create mating pool
             for i in range(self.popul_size):
                 # fit cars have a higher chance of becoming parents / to mate
-                significance = int(round(self.cars[i].fitness * 100, 0))
-                # print(significance)
+                significance = int(round((self.cars[i].fitness / max_fitness) * 100, 0))
                 for j in range(significance):
                     self.mating_pool.append(self.cars[i])
 
@@ -105,7 +102,6 @@ class Game:
             for i in range(self.popul_size):
                 # elitism - keep the best few cars (based on ratio of population)
                 if i < self.popul_size * self.elite_ratio_of_popul:
-                    self.cars[i] = self.elitism_sort_cars[i]
                     continue
 
                 parent1 = random.choice(self.mating_pool)

@@ -12,9 +12,6 @@ class DNA:
             for b in range(self.precision+1):
                 for c in range(self.precision+1):
                     self.genes[self.key_repr([a, b, c])] = round(random.uniform(-self.max_steer, self.max_steer), 1)
-                    # self.genes[self.key_repr([a, b, c])] = 3
         
-        print(self.genes)
-
     def key_repr(self, inp):
         return ",".join(str(x) for x in inp)

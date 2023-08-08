@@ -23,7 +23,7 @@ class Car:
         self.position = [830, 920]
         self.angle = 0
         # self.speed = random.randint(3, 10) # TODO: just testing, final speed is const
-        self.speed = 1
+        self.speed = 4
         self.center = [self.position[0] + CAR_SIZE_X / 2, self.position[1] + CAR_SIZE_Y / 2]
 
         self.dna = DNA()
@@ -126,8 +126,7 @@ class Car:
         return self.alive
 
     def get_reward(self):
-        # Calculate Reward (Maybe Change?)
-        # return self.distance / 50.0
+        # NOTE: hard to check if goes in wrong direction...
         return self.dist_passed / (CAR_SIZE_X / 2)
 
     def rotate_center(self, image, angle):

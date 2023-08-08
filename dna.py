@@ -6,7 +6,7 @@ class DNA:
         self.precision = 7 # radar will have int outputs from 0 to precision (inclusive)
         self.dna_len = (self.precision+1)**3 # how many genes
 
-        self.max_steer = 3
+        self.max_steer = 4
 
         for a in range(self.precision+1):
             for b in range(self.precision+1):

@@ -1,0 +1,7 @@
+##### config that I am adjusting
+10
+0.4
+0.005
+30
+0.3
+#####

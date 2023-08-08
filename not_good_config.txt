@@ -1,0 +1,39 @@
+##### config that I am adjusting
+10
+0.4
+0.005
+30
+0.2
+#####
+
+##### config that I am adjusting
+50
+0.4
+0.005
+30
+0.2
+#####
+
+##### config that I am adjusting
+50
+0.4
+0.005
+100
+0.2
+#####
+
+##### config that I am adjusting
+50
+0.4
+0.005
+10
+0.2
+#####
+
+##### config that I am adjusting
+50
+0.4
+0.005
+30
+0.2
+#####

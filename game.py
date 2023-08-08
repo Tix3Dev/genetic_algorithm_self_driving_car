@@ -11,7 +11,7 @@ class Game:
         self.screen = screen
         self.generation_font = pygame.font.SysFont("Arial", 30)
         self.alive_font = pygame.font.SysFont("Arial", 20)
-        self.game_map = pygame.image.load('assets/map.png').convert()
+        self.game_map = pygame.image.load('assets/map2.png').convert()
         
         self.avrg_abs_fit_vals = []
         self.fig, self.ax = plt.subplots()
@@ -21,18 +21,21 @@ class Game:
 
         self.cars = []
         #################################### tweaking mostly in here
-        self.popul_size = 50
+        self.popul_size = 10
         self.first_place_reward = 0.4
         self.mutation_prob = 0.005 # this is not percent
         self.crossover_len_divisor = 30
-        self.elite_ratio_of_popul = 0.2 # this is not percent
+        self.elite_ratio_of_popul = 0.4 # this is not percent
+        self.elite_ratio_of_popul_gy = 0.7
 
-        print("config that I am adjusting")
+        print("##### config that I am adjusting")
         print(self.popul_size)
         print(self.first_place_reward)
         print(self.mutation_prob)
         print(self.crossover_len_divisor)
         print(self.elite_ratio_of_popul)
+        print(self.elite_ratio_of_popul_gy)
+        print("#####")
         #################################### tweaking mostly in here
         self.generation_count = 0
         self.frame_count = 0
@@ -110,7 +113,11 @@ class Game:
             # select new generation
             for i in range(self.popul_size):
                 # elitism - keep the best few cars (based on ratio of population)
-                if i < self.popul_size * self.elite_ratio_of_popul:
+                if i < self.popul_size * self.elite_ratio_of_popul and not good_year:
+                    self.cars[i] = car(self.screen, self.game_map, self.border_color, self.cars[i].dna)
+                    continue
+                if i < self.popul_size * self.elite_ratio_of_popul_gy and good_year:
+                    self.cars[i] = car(self.screen, self.game_map, self.border_color, self.cars[i].dna)
                     continue
 
                 parent1 = random.choice(self.mating_pool)

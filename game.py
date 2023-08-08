@@ -83,10 +83,18 @@ class Game:
                 parent2 = random.choice(self.mating_pool)
                 self.mating_pool.append(parent1)
 
-                old = copy.deepcopy(parent1.dna)
+                # old = copy.deepcopy(parent1.dna)
 
                 child_dna = parent1.dna.crossover_with(parent2.dna)
-                # child_dna.mutation(0.1)
+                print("Car No.", i)
+
+                print("child genes before mutation:")
+                # print(child_dna.genes)
+                print("{" + "\n".join("{!r}: {!r},".format(k, v) for k, v in child_dna.genes.items()) + "}")
+                child_dna.mutation(0.005) # equivalent to 0.05%
+                print("child genes after mutation:")
+                # print(child_dna.genes)
+                print("{" + "\n".join("{!r}: {!r},".format(k, v) for k, v in child_dna.genes.items()) + "}")
 
                 # print("parent1 genes:")
                 # # print(parent1.dna.genes)
@@ -100,12 +108,12 @@ class Game:
                 # # print(child_dna.genes)
                 # print("{" + "\n".join("{!r}: {!r},".format(k, v) for k, v in child_dna.genes.items()) + "}")
 
-                if old.genes == child_dna.genes:
-                    print("case 1")
-                elif parent2.dna.genes == child_dna.genes:
-                    print("case 2")
-                else:
-                    print("case 3")
+                # if old.genes == child_dna.genes:
+                #     print("case 1")
+                # elif parent2.dna.genes == child_dna.genes:
+                #     print("case 2")
+                # else:
+                #     print("case 3")
 
                 # print("parent1 genes:", parent1.dna.genes)
                 # print("parent2 genes:", parent2.dna.genes)
@@ -117,7 +125,7 @@ class Game:
                 # print("parent2:", parent2)
                 # print("child  :", self.cars[i])
                 # 
-                # quit()
+                quit()
 
             self.generation_count += 1
             self.frame_count = 0

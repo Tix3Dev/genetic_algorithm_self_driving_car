@@ -42,7 +42,13 @@ class DNA:
         return self
 
     def mutation(self, prob):
-        for gen in self.genes:
+        for i in range(self.dna_len):
             r = random.randint(1, 1/prob)
             if r == 1:
-                gen = self.random_steer()
+                a = random.randint(0, self.precision)
+                b = random.randint(0, self.precision)
+                c = random.randint(0, self.precision)
+                inp = [a, b, c]
+
+                self.genes[self.key_repr(inp)] = self.random_steer()
+                print("genes mutated:", i)

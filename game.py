@@ -26,6 +26,13 @@ class Game:
         self.mutation_prob = 0.005 # this is not percent
         self.crossover_len_divisor = 30
         self.elite_ratio_of_popul = 0.2 # this is not percent
+
+        print("config that I am adjusting")
+        print(self.popul_size)
+        print(self.first_place_reward)
+        print(self.mutation_prob)
+        print(self.crossover_len_divisor)
+        print(self.elite_ratio_of_popul)
         #################################### tweaking mostly in here
         self.generation_count = 0
         self.frame_count = 0
@@ -52,6 +59,8 @@ class Game:
         # -> plot stats
         self.ax.step(np.arange(len(self.avrg_abs_fit_vals)),
                      self.avrg_abs_fit_vals, linewidth=2.5)
+        plt.xlabel("Generation")
+        plt.ylabel("Absolute Average Fitness")
         plt.show(block=False)
         plt.draw()
         plt.pause(0.01)

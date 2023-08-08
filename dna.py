@@ -34,10 +34,16 @@ class DNA:
                 # decreasing the total number of swapped genes at the end,
                 # since it will already skip to another iteration (and won't retry)
                 continue
+            swapped_already.append(inp)
 
-            temp = self.genes[self.key_repr(inp)]
+            old_genes = self.genes
+
             self.genes[self.key_repr(inp)] = other_parent.genes[self.key_repr(inp)]
-            other_parent.genes[self.key_repr(inp)] = temp
+
+            if old_genes == self.genes:
+                print("nothing changed")
+        
+        return self
 
     def mutation(self, prob):
         for gen in self.genes:

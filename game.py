@@ -1,5 +1,8 @@
 import pygame
 import random
+import numpy as np
+import matplotlib.pyplot as plt
+plt.style.use('_mpl-gallery')
 
 from car import Car
 
@@ -9,14 +12,20 @@ class Game:
         self.generation_font = pygame.font.SysFont("Arial", 30)
         self.alive_font = pygame.font.SysFont("Arial", 20)
         self.game_map = pygame.image.load('assets/map.png').convert()
+        
+        self.avrg_abs_fit_vals = []
+        self.fig, self.ax = plt.subplots()
+        plt.ion()
+        plt.tight_layout()
+        plt.show()
 
         self.cars = []
         #################################### tweaking mostly in here
-        self.popul_size = 50 
-        self.first_place_reward = 20
-        self.crash_free_reward = 40
-        self.mutation_prob = 0.1 # this is not percent
-        self.crossover_len_divisor = 10
+        self.popul_size = 50
+        self.first_place_reward = 0.4
+        self.mutation_prob = 0.005 # this is not percent
+        self.crossover_len_divisor = 40
+        self.elite_percent_of_popul = 15 # this is in percent
         #################################### tweaking mostly in here
         self.generation_count = 0
         self.frame_count = 0
@@ -47,9 +56,6 @@ class Game:
             self.cars[i].draw()
 
             self.cars[i].fitness = self.cars[i].get_reward() # just the distance
-            if self.frame_count + 1 == self.frame_lifespan:
-                # reaching this means car didn't crash till end, which is very good
-                self.cars[i].fitness *= self.crash_free_reward
 
         self.frame_count += 1
         if self.frame_count == self.frame_lifespan or still_alive_count == 0:
@@ -63,12 +69,23 @@ class Game:
                     max_fitness = self.cars[i].fitness
                     max_fitness_car = self.cars[i]
 
-            max_fitness_car.fitness *= self.first_place_reward
+            max_fitness += self.first_place_reward
+            max_fitness_car.fitness += self.first_place_reward
 
             for i in range(self.popul_size):
                 self.cars[i].fitness /= max_fitness
 
-            print("Generation", self.generation_count, " -> Average absolute fitness:", total_fitness_sum / self.popul_size)
+            # stats
+            self.avrg_abs_fit_vals.append(total_fitness_sum / self.popul_size)
+            # -> print stats
+            print("Generation", self.generation_count,
+                  " -> Average absolute fitness:", total_fitness_sum / self.popul_size)
+            # -> plot stats
+            self.ax.step(0.5 + np.arange(len(self.avrg_abs_fit_vals)),
+                         self.avrg_abs_fit_vals, linewidth=2.5)
+            plt.show(block=False)
+            plt.draw()
+            plt.pause(0.01)
 
             # create mating pool
             for i in range(self.popul_size):
@@ -79,6 +96,7 @@ class Game:
                     self.mating_pool.append(self.cars[i])
 
             # select new generation
+
             for i in range(self.popul_size):
                 parent1 = random.choice(self.mating_pool)
                 self.mating_pool.remove(parent1)

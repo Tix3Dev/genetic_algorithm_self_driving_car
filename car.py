@@ -23,7 +23,7 @@ class Car:
         self.position = [830, 920]
         self.angle = 0
         # self.speed = 4 + random.random()
-        self.speed = 6
+        self.speed = 8
         self.center = [self.position[0] + CAR_SIZE_X / 2, self.position[1] + CAR_SIZE_Y / 2]
 
         if dna:

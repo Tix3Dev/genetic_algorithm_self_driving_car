@@ -20,21 +20,12 @@ class DNA:
         return ",".join(str(x) for x in inp)
 
     def crossover_with(self, other_parent, len_divisor):
-        swapped_already = []
-        
         crossover_len = random.randint(0, int(round(self.dna_len / len_divisor, 0)))
         for i in range(crossover_len):
             a = random.randint(0, self.precision)
             b = random.randint(0, self.precision)
             c = random.randint(0, self.precision)
             inp = [a, b, c]
-
-            if inp in swapped_already:
-                # NOTE: this will most likely be called at some point,
-                # decreasing the total number of swapped genes at the end,
-                # since it will already skip to another iteration (and won't retry)
-                continue
-            swapped_already.append(inp)
 
             self.genes[self.key_repr(inp)] = other_parent.genes[self.key_repr(inp)]
  

@@ -13,7 +13,7 @@ class Game:
         self.popul_size = 1
         self.gen_count = 0
         self.frame_count = 0
-        self.frame_lifespan = 600 # -> 10sec lifespan for 60fps
+        self.frame_lifespan = 6000 # -> 100sec lifespan for 60fps
         
         self.border_color = (255, 255, 255, 255)
 
@@ -30,8 +30,8 @@ class Game:
 
         for i, car in enumerate(self.cars):
             print("Action taken for Car No.", i, " using this radar data:", car.get_data())
-            # evaluate current situation using sensors and decision based on DNA
-            decision = 0.3 # irl should be return value from function, given state
+            # based on current radar situation, let DNA decide what to do next
+            decision = car.dna.genes[car.dna.key_repr(car.get_data())]
             car.angle += decision
 
             car.update()

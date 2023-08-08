@@ -2,8 +2,9 @@
 
 import pygame
 import math
-
 import random
+
+from dna import DNA
 
 CAR_SIZE_X = 60
 CAR_SIZE_Y = 60
@@ -25,7 +26,11 @@ class Car:
         self.speed = 1
         self.center = [self.position[0] + CAR_SIZE_X / 2, self.position[1] + CAR_SIZE_Y / 2]
 
+        self.dna = DNA()
+        self.fitness = 0
+
         self.radars = []
+        self.radar_max_len = 300
         # we now need to do this already, oltherwise first training data GA gets is all zero
         # From -45 To 75 With Step-Size 45 Check Radar
         for d in range(-45, 75, 45):
@@ -59,8 +64,8 @@ class Car:
         y = int(self.center[1] + math.sin(math.radians(360 - (self.angle + degree))) * length)
 
         # TODO: this is fantastic, there is a max length to the radars, just like in the DNA
-        # While We Don't Hit self.border_color AND length < 300 (just a max) -> go further and further
-        while not self.game_map.get_at((x, y)) == self.border_color and length < 300:
+        # While We Don't Hit self.border_color AND length < prec * 10 (e.g. 7 * 10) -> go further and further
+        while not self.game_map.get_at((x, y)) == self.border_color and length < self.radar_max_len:
             length = length + 1
             x = int(self.center[0] + math.cos(math.radians(360 - (self.angle + degree))) * length)
             y = int(self.center[1] + math.sin(math.radians(360 - (self.angle + degree))) * length)
@@ -110,7 +115,10 @@ class Car:
         radars = self.radars
         return_values = [0, 0, 0]
         for i, radar in enumerate(radars):
-            return_values[i] = int(radar[1] / 30)
+            # radar will have actual length radar_max_len
+            # this will be divided into parts, so that they can be counted
+            # from 0 to n (inclusive)
+            return_values[i] = int(radar[1] / (self.radar_max_len / self.dna.precision))
 
         return return_values
 

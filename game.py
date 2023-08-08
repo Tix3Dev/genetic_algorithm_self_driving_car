@@ -1,9 +1,6 @@
 import pygame
 import random
 
-
-import copy
-
 from car import Car
 
 class Game:
@@ -12,10 +9,15 @@ class Game:
         self.generation_font = pygame.font.SysFont("Arial", 30)
         self.alive_font = pygame.font.SysFont("Arial", 20)
         self.game_map = pygame.image.load('assets/map.png').convert()
-        # self.game_map = self.game_map.convert_alpha()
 
         self.cars = []
-        self.popul_size = 25
+        #################################### tweaking mostly in here
+        self.popul_size = 50 
+        self.first_place_reward = 20
+        self.crash_free_reward = 40
+        self.mutation_prob = 0.1 # this is not percent
+        self.crossover_len_divisor = 10
+        #################################### tweaking mostly in here
         self.generation_count = 0
         self.frame_count = 0
         self.frame_lifespan = 1200 # -> e.g. 600 10sec lifespan for 60fps
@@ -32,9 +34,6 @@ class Game:
 
         still_alive_count = 0
 
-        # DEBUG
-        # time.sleep(1)
-
         for i in range(self.popul_size):
             # based on current radar situation, let DNA decide what to do next
             decision = self.cars[i].dna.genes[self.cars[i].dna.key_repr(self.cars[i].get_data())]
@@ -50,29 +49,32 @@ class Game:
             self.cars[i].fitness = self.cars[i].get_reward() # just the distance
             if self.frame_count + 1 == self.frame_lifespan:
                 # reaching this means car didn't crash till end, which is very good
-                self.cars[i].fitness *= 2
+                self.cars[i].fitness *= self.crash_free_reward
 
         self.frame_count += 1
         if self.frame_count == self.frame_lifespan or still_alive_count == 0:
-            # TODO: average fitness states etc.
-
             # normalise fitness
+            total_fitness_sum = 0
             max_fitness = 0
-            for car in self.cars:
-                if car.fitness > max_fitness:
-                    max_fitness = car.fitness
+            max_fitness_car = self.cars[0]
+            for i in range(self.popul_size):
+                total_fitness_sum += self.cars[i].fitness
+                if self.cars[i].fitness > max_fitness:
+                    max_fitness = self.cars[i].fitness
+                    max_fitness_car = self.cars[i]
+
+            max_fitness_car.fitness *= self.first_place_reward
 
             for i in range(self.popul_size):
                 self.cars[i].fitness /= max_fitness
 
-            print("flaggy two")
-            for car in self.cars:
-                print(car.fitness)
+            print("Generation", self.generation_count, " -> Average absolute fitness:", total_fitness_sum / self.popul_size)
 
             # create mating pool
             for i in range(self.popul_size):
                 # fit cars have a higher chance of becoming parents / to mate
                 significance = int(round(self.cars[i].fitness * 100, 0))
+                # print(significance)
                 for j in range(significance):
                     self.mating_pool.append(self.cars[i])
 
@@ -83,50 +85,12 @@ class Game:
                 parent2 = random.choice(self.mating_pool)
                 self.mating_pool.append(parent1)
 
-                # old = copy.deepcopy(parent1.dna)
-
-                child_dna = parent1.dna.crossover_with(parent2.dna)
-                print("Car No.", i)
-
-                print("child genes before mutation:")
-                # print(child_dna.genes)
-                print("{" + "\n".join("{!r}: {!r},".format(k, v) for k, v in child_dna.genes.items()) + "}")
-                child_dna.mutation(0.005) # equivalent to 0.05%
-                print("child genes after mutation:")
-                # print(child_dna.genes)
-                print("{" + "\n".join("{!r}: {!r},".format(k, v) for k, v in child_dna.genes.items()) + "}")
-
-                # print("parent1 genes:")
-                # # print(parent1.dna.genes)
-                # print("{" + "\n".join("{!r}: {!r},".format(k, v) for k, v in parent1.dna.genes.items()) + "}")
-                #
-                # print("parent2 genes:")
-                # # print(parent2.dna.genes)
-                # print("{" + "\n".join("{!r}: {!r},".format(k, v) for k, v in parent2.dna.genes.items()) + "}")
-                # 
-                # print("child genes:")
-                # # print(child_dna.genes)
-                # print("{" + "\n".join("{!r}: {!r},".format(k, v) for k, v in child_dna.genes.items()) + "}")
-
-                # if old.genes == child_dna.genes:
-                #     print("case 1")
-                # elif parent2.dna.genes == child_dna.genes:
-                #     print("case 2")
-                # else:
-                #     print("case 3")
-
-                # print("parent1 genes:", parent1.dna.genes)
-                # print("parent2 genes:", parent2.dna.genes)
-                # print("child   genes:", child_dna.genes)
+                child_dna = parent1.dna.crossover_with(parent2.dna, self.crossover_len_divisor)
+                child_dna.mutation(self.mutation_prob)
 
                 self.cars[i] = Car(self.screen, self.game_map, self.border_color, child_dna) # TODO: check if this changes car
 
-                # print("parent1:", parent1)
-                # print("parent2:", parent2)
-                # print("child  :", self.cars[i])
-                # 
-                quit()
-
+            # restart gameplay
             self.generation_count += 1
             self.frame_count = 0
         

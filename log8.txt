@@ -1,0 +1,1735 @@
+10
+100
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 0  -> Average absolute fitness: 24.66
+Generation 1  -> Average absolute fitness: 34.199999999999996
+Generation 2  -> Average absolute fitness: 19.380000000000003
+Generation 3  -> Average absolute fitness: 33.14
+Generation 4  -> Average absolute fitness: 45.620000000000005
+Generation 5  -> Average absolute fitness: 41.38000000000001
+Generation 6  -> Average absolute fitness: 36.74
+Generation 7  -> Average absolute fitness: 20.500000000000004
+Generation 8  -> Average absolute fitness: 37.64
+Generation 9  -> Average absolute fitness: 39.26
+Generation 10  -> Average absolute fitness: 60.419999999999995
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 11  -> Average absolute fitness: 66.66000000000001
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 12  -> Average absolute fitness: 55.02
+Generation 13  -> Average absolute fitness: 53.879999999999995
+Generation 14  -> Average absolute fitness: 51.019999999999996
+Generation 15  -> Average absolute fitness: 53.5
+Generation 16  -> Average absolute fitness: 44.800000000000004
+Generation 17  -> Average absolute fitness: 63.05999999999999
+Generation 18  -> Average absolute fitness: 65.61999999999999
+Generation 19  -> Average absolute fitness: 62.220000000000006
+Generation 20  -> Average absolute fitness: 54.839999999999996
+Generation 21  -> Average absolute fitness: 62.160000000000004
+Generation 22  -> Average absolute fitness: 52.11999999999999
+Generation 23  -> Average absolute fitness: 58.7
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 24  -> Average absolute fitness: 62.56
+Generation 25  -> Average absolute fitness: 61.480000000000004
+Generation 26  -> Average absolute fitness: 56.2
+Generation 27  -> Average absolute fitness: 62.980000000000004
+Generation 28  -> Average absolute fitness: 63.24000000000001
+Generation 29  -> Average absolute fitness: 63.88000000000001
+Generation 30  -> Average absolute fitness: 64.0
+Generation 31  -> Average absolute fitness: 64.00000000000001
+Generation 32  -> Average absolute fitness: 68.68
+Generation 33  -> Average absolute fitness: 42.99999999999999
+Generation 34  -> Average absolute fitness: 37.160000000000004
+Generation 35  -> Average absolute fitness: 41.16
+Generation 36  -> Average absolute fitness: 37.11999999999999
+Generation 37  -> Average absolute fitness: 39.199999999999996
+Generation 38  -> Average absolute fitness: 22.240000000000002
+Generation 39  -> Average absolute fitness: 33.08
+Generation 40  -> Average absolute fitness: 12.72
+Generation 41  -> Average absolute fitness: 17.580000000000002
+Generation 42  -> Average absolute fitness: 18.319999999999993
+Generation 43  -> Average absolute fitness: 46.84
+Generation 44  -> Average absolute fitness: 46.31999999999999
+Generation 45  -> Average absolute fitness: 48.22
+Generation 46  -> Average absolute fitness: 58.64000000000001
+Generation 47  -> Average absolute fitness: 51.199999999999996
+Generation 48  -> Average absolute fitness: 54.92
+Generation 49  -> Average absolute fitness: 51.199999999999996
+Generation 50  -> Average absolute fitness: 61.120000000000005
+Generation 51  -> Average absolute fitness: 61.12000000000002
+Generation 52  -> Average absolute fitness: 53.67999999999999
+Generation 53  -> Average absolute fitness: 59.52
+Generation 54  -> Average absolute fitness: 58.52000000000002
+Generation 55  -> Average absolute fitness: 78.08000000000001
+Generation 56  -> Average absolute fitness: 68.82000000000001
+Generation 57  -> Average absolute fitness: 82.8
+Generation 58  -> Average absolute fitness: 56.739999999999995
+Generation 59  -> Average absolute fitness: 69.84
+Generation 60  -> Average absolute fitness: 51.499999999999986
+Generation 61  -> Average absolute fitness: 51.88000000000001
+Generation 62  -> Average absolute fitness: 62.519999999999996
+Generation 63  -> Average absolute fitness: 51.379999999999995
+Generation 64  -> Average absolute fitness: 68.18
+Generation 65  -> Average absolute fitness: 69.53999999999999
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 66  -> Average absolute fitness: 56.760000000000005
+Generation 67  -> Average absolute fitness: 130.44
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 68  -> Average absolute fitness: 51.44000000000001
+Generation 69  -> Average absolute fitness: 51.8
+Generation 70  -> Average absolute fitness: 51.8
+Generation 71  -> Average absolute fitness: 51.56
+Generation 72  -> Average absolute fitness: 51.71999999999999
+Generation 73  -> Average absolute fitness: 51.760000000000005
+Generation 74  -> Average absolute fitness: 51.8
+Generation 75  -> Average absolute fitness: 52.52
+Generation 76  -> Average absolute fitness: 51.8
+Generation 77  -> Average absolute fitness: 51.8
+Generation 78  -> Average absolute fitness: 51.8
+Generation 79  -> Average absolute fitness: 51.8
+Generation 80  -> Average absolute fitness: 51.8
+Generation 81  -> Average absolute fitness: 51.8
+Generation 82  -> Average absolute fitness: 51.8
+Generation 83  -> Average absolute fitness: 51.8
+Generation 84  -> Average absolute fitness: 53.38000000000001
+Generation 85  -> Average absolute fitness: 51.8
+Generation 86  -> Average absolute fitness: 51.8
+Generation 87  -> Average absolute fitness: 51.8
+Generation 88  -> Average absolute fitness: 54.96
+Generation 89  -> Average absolute fitness: 53.379999999999995
+Generation 90  -> Average absolute fitness: 59.7
+Generation 91  -> Average absolute fitness: 54.94
+Generation 92  -> Average absolute fitness: 120.5
+Generation 93  -> Average absolute fitness: 58.10000000000001
+Generation 94  -> Average absolute fitness: 53.220000000000006
+Generation 95  -> Average absolute fitness: 54.80000000000001
+Generation 96  -> Average absolute fitness: 58.000000000000014
+Generation 97  -> Average absolute fitness: 51.60000000000001
+Generation 98  -> Average absolute fitness: 51.60000000000001
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 99  -> Average absolute fitness: 66.96000000000001
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 100  -> Average absolute fitness: 61.860000000000014
+Generation 101  -> Average absolute fitness: 52.30000000000001
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 102  -> Average absolute fitness: 62.720000000000006
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 103  -> Average absolute fitness: 52.500000000000014
+Generation 104  -> Average absolute fitness: 50.68000000000001
+Generation 105  -> Average absolute fitness: 51.10000000000001
+Generation 106  -> Average absolute fitness: 50.68000000000001
+Generation 107  -> Average absolute fitness: 51.08
+Generation 108  -> Average absolute fitness: 50.82000000000001
+Generation 109  -> Average absolute fitness: 82.20000000000002
+Generation 110  -> Average absolute fitness: 54.84000000000001
+Generation 111  -> Average absolute fitness: 53.980000000000004
+Generation 112  -> Average absolute fitness: 51.12
+Generation 113  -> Average absolute fitness: 51.42
+Generation 114  -> Average absolute fitness: 60.28000000000001
+Generation 115  -> Average absolute fitness: 51.580000000000005
+Generation 116  -> Average absolute fitness: 51.60000000000001
+Generation 117  -> Average absolute fitness: 54.980000000000004
+Generation 118  -> Average absolute fitness: 7243.74
+Generation 119  -> Average absolute fitness: 57.14000000000001
+Generation 120  -> Average absolute fitness: 51.60000000000001
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 121  -> Average absolute fitness: 53.36
+Generation 122  -> Average absolute fitness: 57.6
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 123  -> Average absolute fitness: 53.1
+Generation 124  -> Average absolute fitness: 51.31999999999999
+Generation 125  -> Average absolute fitness: 51.54
+Generation 126  -> Average absolute fitness: 51.480000000000004
+Generation 127  -> Average absolute fitness: 52.519999999999996
+Generation 128  -> Average absolute fitness: 52.92
+Generation 129  -> Average absolute fitness: 52.56
+Generation 130  -> Average absolute fitness: 52.52
+Generation 131  -> Average absolute fitness: 52.639999999999986
+Generation 132  -> Average absolute fitness: 54.55999999999999
+Generation 133  -> Average absolute fitness: 54.68000000000001
+Generation 134  -> Average absolute fitness: 51.199999999999996
+Generation 135  -> Average absolute fitness: 55.419999999999995
+Generation 136  -> Average absolute fitness: 51.98
+Generation 137  -> Average absolute fitness: 72.06
+Generation 138  -> Average absolute fitness: 54.64
+Generation 139  -> Average absolute fitness: 54.919999999999995
+Generation 140  -> Average absolute fitness: 94.52000000000002
+Generation 141  -> Average absolute fitness: 95.04
+Generation 142  -> Average absolute fitness: 63.75999999999999
+Generation 143  -> Average absolute fitness: 79.68
+Generation 144  -> Average absolute fitness: 76.86000000000001
+Generation 145  -> Average absolute fitness: 51.39999999999999
+Generation 146  -> Average absolute fitness: 54.73999999999999
+Generation 147  -> Average absolute fitness: 55.85999999999999
+Generation 148  -> Average absolute fitness: 54.58
+Generation 149  -> Average absolute fitness: 51.35999999999999
+Generation 150  -> Average absolute fitness: 51.35999999999999
+Generation 151  -> Average absolute fitness: 51.39999999999999
+Generation 152  -> Average absolute fitness: 51.379999999999995
+Generation 153  -> Average absolute fitness: 51.39999999999999
+Generation 154  -> Average absolute fitness: 51.39999999999999
+Generation 155  -> Average absolute fitness: 51.39999999999999
+Generation 156  -> Average absolute fitness: 51.44
+Generation 157  -> Average absolute fitness: 51.419999999999995
+Generation 158  -> Average absolute fitness: 51.56
+Generation 159  -> Average absolute fitness: 51.56
+Generation 160  -> Average absolute fitness: 51.44
+Generation 161  -> Average absolute fitness: 51.39999999999999
+Generation 162  -> Average absolute fitness: 51.44
+Generation 163  -> Average absolute fitness: 51.48
+Generation 164  -> Average absolute fitness: 53.75999999999999
+Generation 165  -> Average absolute fitness: 51.39999999999999
+Generation 166  -> Average absolute fitness: 51.43999999999998
+Generation 167  -> Average absolute fitness: 51.54
+Generation 168  -> Average absolute fitness: 51.60000000000001
+Generation 169  -> Average absolute fitness: 51.60000000000001
+Generation 170  -> Average absolute fitness: 51.580000000000005
+Generation 171  -> Average absolute fitness: 51.60000000000001
+Generation 172  -> Average absolute fitness: 55.120000000000005
+Generation 173  -> Average absolute fitness: 51.60000000000001
+Generation 174  -> Average absolute fitness: 51.60000000000001
+Generation 175  -> Average absolute fitness: 51.60000000000001
+Generation 176  -> Average absolute fitness: 51.60000000000001
+Generation 177  -> Average absolute fitness: 51.620000000000005
+Generation 178  -> Average absolute fitness: 38.60000000000001
+Generation 179  -> Average absolute fitness: 43.040000000000006
+Generation 180  -> Average absolute fitness: 51.60000000000001
+Generation 181  -> Average absolute fitness: 51.620000000000005
+Generation 182  -> Average absolute fitness: 51.64000000000001
+Generation 183  -> Average absolute fitness: 51.60000000000001
+Generation 184  -> Average absolute fitness: 51.60000000000001
+Generation 185  -> Average absolute fitness: 51.60000000000001
+Generation 186  -> Average absolute fitness: 51.60000000000001
+Generation 187  -> Average absolute fitness: 51.60000000000001
+Generation 188  -> Average absolute fitness: 51.60000000000001
+Generation 189  -> Average absolute fitness: 51.60000000000001
+Generation 190  -> Average absolute fitness: 51.60000000000001
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 191  -> Average absolute fitness: 51.60000000000001
+Generation 192  -> Average absolute fitness: 51.60000000000001
+Generation 193  -> Average absolute fitness: 51.60000000000001
+Generation 194  -> Average absolute fitness: 51.46
+Generation 195  -> Average absolute fitness: 51.60000000000001
+Generation 196  -> Average absolute fitness: 51.60000000000001
+Generation 197  -> Average absolute fitness: 51.60000000000001
+Generation 198  -> Average absolute fitness: 51.60000000000001
+Generation 199  -> Average absolute fitness: 51.60000000000001
+Generation 200  -> Average absolute fitness: 51.60000000000001
+Generation 201  -> Average absolute fitness: 51.60000000000001
+Generation 202  -> Average absolute fitness: 51.60000000000001
+Generation 203  -> Average absolute fitness: 51.60000000000001
+Generation 204  -> Average absolute fitness: 47.36000000000001
+Generation 205  -> Average absolute fitness: 51.60000000000001
+Generation 206  -> Average absolute fitness: 51.60000000000001
+Generation 207  -> Average absolute fitness: 51.60000000000001
+Generation 208  -> Average absolute fitness: 51.60000000000001
+Generation 209  -> Average absolute fitness: 51.60000000000001
+Generation 210  -> Average absolute fitness: 51.60000000000001
+Generation 211  -> Average absolute fitness: 51.60000000000001
+Generation 212  -> Average absolute fitness: 51.36
+Generation 213  -> Average absolute fitness: 51.60000000000001
+Generation 214  -> Average absolute fitness: 51.60000000000001
+Generation 215  -> Average absolute fitness: 51.60000000000001
+Generation 216  -> Average absolute fitness: 51.60000000000001
+Generation 217  -> Average absolute fitness: 51.60000000000001
+Generation 218  -> Average absolute fitness: 51.60000000000001
+Generation 219  -> Average absolute fitness: 51.60000000000001
+Generation 220  -> Average absolute fitness: 51.60000000000001
+Generation 221  -> Average absolute fitness: 51.60000000000001
+Generation 222  -> Average absolute fitness: 51.60000000000001
+Generation 223  -> Average absolute fitness: 48.86000000000001
+Generation 224  -> Average absolute fitness: 51.60000000000001
+Generation 225  -> Average absolute fitness: 51.56000000000002
+Generation 226  -> Average absolute fitness: 51.60000000000001
+Generation 227  -> Average absolute fitness: 51.64000000000001
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 228  -> Average absolute fitness: 51.88000000000001
+Generation 229  -> Average absolute fitness: 51.720000000000006
+Generation 230  -> Average absolute fitness: 51.580000000000005
+Generation 231  -> Average absolute fitness: 51.60000000000001
+Generation 232  -> Average absolute fitness: 51.620000000000005
+Generation 233  -> Average absolute fitness: 51.85999999999999
+Generation 234  -> Average absolute fitness: 51.720000000000006
+Generation 235  -> Average absolute fitness: 51.64000000000001
+Generation 236  -> Average absolute fitness: 51.60000000000001
+Generation 237  -> Average absolute fitness: 51.64000000000001
+Generation 238  -> Average absolute fitness: 51.64000000000001
+Generation 239  -> Average absolute fitness: 51.68000000000001
+Generation 240  -> Average absolute fitness: 51.879999999999995
+Generation 241  -> Average absolute fitness: 51.92
+Generation 242  -> Average absolute fitness: 51.96
+Generation 243  -> Average absolute fitness: 51.92
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 244  -> Average absolute fitness: 51.879999999999995
+Generation 245  -> Average absolute fitness: 51.64000000000001
+Generation 246  -> Average absolute fitness: 52.0
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 247  -> Average absolute fitness: 51.92
+Generation 248  -> Average absolute fitness: 52.0
+Generation 249  -> Average absolute fitness: 51.96
+Generation 250  -> Average absolute fitness: 52.0
+Generation 251  -> Average absolute fitness: 52.0
+Generation 252  -> Average absolute fitness: 52.0
+Generation 253  -> Average absolute fitness: 52.0
+Generation 254  -> Average absolute fitness: 52.0
+Generation 255  -> Average absolute fitness: 52.0
+Generation 256  -> Average absolute fitness: 52.0
+Generation 257  -> Average absolute fitness: 52.0
+Generation 258  -> Average absolute fitness: 51.519999999999996
+Generation 259  -> Average absolute fitness: 51.64
+Generation 260  -> Average absolute fitness: 51.6
+Generation 261  -> Average absolute fitness: 51.64
+Generation 262  -> Average absolute fitness: 51.5
+Generation 263  -> Average absolute fitness: 52.0
+Generation 264  -> Average absolute fitness: 51.98
+Generation 265  -> Average absolute fitness: 51.92
+Generation 266  -> Average absolute fitness: 51.94000000000001
+Generation 267  -> Average absolute fitness: 51.84000000000001
+Generation 268  -> Average absolute fitness: 51.82000000000001
+Generation 269  -> Average absolute fitness: 52.08
+Generation 270  -> Average absolute fitness: 52.04
+Generation 271  -> Average absolute fitness: 51.9
+Generation 272  -> Average absolute fitness: 51.3
+Generation 273  -> Average absolute fitness: 51.4
+Generation 274  -> Average absolute fitness: 51.36
+Generation 275  -> Average absolute fitness: 51.44
+Generation 276  -> Average absolute fitness: 52.0
+Generation 277  -> Average absolute fitness: 50.879999999999995
+Generation 278  -> Average absolute fitness: 50.32
+Generation 279  -> Average absolute fitness: 49.48
+Generation 280  -> Average absolute fitness: 51.14
+Generation 281  -> Average absolute fitness: 49.48
+Generation 282  -> Average absolute fitness: 50.31999999999999
+Generation 283  -> Average absolute fitness: 52.0
+Generation 284  -> Average absolute fitness: 52.0
+Generation 285  -> Average absolute fitness: 52.0
+Generation 286  -> Average absolute fitness: 52.0
+Generation 287  -> Average absolute fitness: 24.86
+Generation 288  -> Average absolute fitness: 47.36
+Generation 289  -> Average absolute fitness: 52.0
+Generation 290  -> Average absolute fitness: 55.5
+Generation 291  -> Average absolute fitness: 54.35999999999999
+Generation 292  -> Average absolute fitness: 53.279999999999994
+Generation 293  -> Average absolute fitness: 55.6
+Generation 294  -> Average absolute fitness: 60.64
+Generation 295  -> Average absolute fitness: 61.459999999999994
+Generation 296  -> Average absolute fitness: 63.0
+Generation 297  -> Average absolute fitness: 65.0
+Generation 298  -> Average absolute fitness: 65.4
+Generation 299  -> Average absolute fitness: 65.4
+Generation 300  -> Average absolute fitness: 66.3
+Generation 301  -> Average absolute fitness: 67.03999999999999
+Generation 302  -> Average absolute fitness: 66.2
+Generation 303  -> Average absolute fitness: 67.03999999999999
+Generation 304  -> Average absolute fitness: 79.34
+Generation 305  -> Average absolute fitness: 99.39999999999999
+Generation 306  -> Average absolute fitness: 79.24
+Generation 307  -> Average absolute fitness: 71.08
+Generation 308  -> Average absolute fitness: 71.08
+Generation 309  -> Average absolute fitness: 95.55999999999999
+Generation 310  -> Average absolute fitness: 99.63999999999999
+Generation 311  -> Average absolute fitness: 107.79999999999998
+Generation 312  -> Average absolute fitness: 107.79999999999998
+Generation 313  -> Average absolute fitness: 107.79999999999998
+Generation 314  -> Average absolute fitness: 107.79999999999998
+Generation 315  -> Average absolute fitness: 107.79999999999998
+Generation 316  -> Average absolute fitness: 107.79999999999998
+Generation 317  -> Average absolute fitness: 107.79999999999998
+Generation 318  -> Average absolute fitness: 107.79999999999998
+Generation 319  -> Average absolute fitness: 107.79999999999998
+Generation 320  -> Average absolute fitness: 107.79999999999998
+Generation 321  -> Average absolute fitness: 88.07999999999998
+Generation 322  -> Average absolute fitness: 89.47999999999999
+Generation 323  -> Average absolute fitness: 84.93999999999998
+Generation 324  -> Average absolute fitness: 103.28
+Generation 325  -> Average absolute fitness: 98.79999999999998
+Generation 326  -> Average absolute fitness: 98.79999999999998
+Generation 327  -> Average absolute fitness: 94.29999999999998
+Generation 328  -> Average absolute fitness: 103.29999999999998
+Generation 329  -> Average absolute fitness: 107.67999999999999
+Generation 330  -> Average absolute fitness: 107.79999999999998
+Generation 331  -> Average absolute fitness: 103.29999999999998
+Generation 332  -> Average absolute fitness: 107.79999999999998
+Generation 333  -> Average absolute fitness: 107.79999999999998
+Generation 334  -> Average absolute fitness: 107.79999999999998
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 335  -> Average absolute fitness: 107.79999999999998
+Generation 336  -> Average absolute fitness: 107.79999999999998
+Generation 337  -> Average absolute fitness: 107.79999999999998
+Generation 338  -> Average absolute fitness: 107.79999999999998
+Generation 339  -> Average absolute fitness: 107.79999999999998
+Generation 340  -> Average absolute fitness: 107.79999999999998
+Generation 341  -> Average absolute fitness: 107.79999999999998
+Generation 342  -> Average absolute fitness: 103.75999999999999
+Generation 343  -> Average absolute fitness: 99.71999999999998
+Generation 344  -> Average absolute fitness: 107.79999999999998
+Generation 345  -> Average absolute fitness: 107.79999999999998
+Generation 346  -> Average absolute fitness: 107.79999999999998
+Generation 347  -> Average absolute fitness: 107.79999999999998
+Generation 348  -> Average absolute fitness: 107.79999999999998
+Generation 349  -> Average absolute fitness: 107.79999999999998
+Generation 350  -> Average absolute fitness: 107.79999999999998
+Generation 351  -> Average absolute fitness: 107.79999999999998
+Generation 352  -> Average absolute fitness: 107.79999999999998
+Generation 353  -> Average absolute fitness: 107.79999999999998
+Generation 354  -> Average absolute fitness: 107.79999999999998
+Generation 355  -> Average absolute fitness: 107.79999999999998
+Generation 356  -> Average absolute fitness: 107.79999999999998
+Generation 357  -> Average absolute fitness: 85.08
+Generation 358  -> Average absolute fitness: 82.96000000000001
+Generation 359  -> Average absolute fitness: 107.79999999999998
+Generation 360  -> Average absolute fitness: 107.79999999999998
+Generation 361  -> Average absolute fitness: 107.79999999999998
+Generation 362  -> Average absolute fitness: 107.79999999999998
+Generation 363  -> Average absolute fitness: 107.79999999999998
+Generation 364  -> Average absolute fitness: 107.79999999999998
+Generation 365  -> Average absolute fitness: 107.79999999999998
+Generation 366  -> Average absolute fitness: 107.79999999999998
+Generation 367  -> Average absolute fitness: 107.79999999999998
+Generation 368  -> Average absolute fitness: 107.79999999999998
+Generation 369  -> Average absolute fitness: 107.79999999999998
+Generation 370  -> Average absolute fitness: 107.79999999999998
+Generation 371  -> Average absolute fitness: 97.79999999999998
+Generation 372  -> Average absolute fitness: 79.72
+Generation 373  -> Average absolute fitness: 107.79999999999998
+Generation 374  -> Average absolute fitness: 107.79999999999998
+Generation 375  -> Average absolute fitness: 107.79999999999998
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 376  -> Average absolute fitness: 107.79999999999998
+Generation 377  -> Average absolute fitness: 107.79999999999998
+Generation 378  -> Average absolute fitness: 98.79999999999998
+Generation 379  -> Average absolute fitness: 98.79999999999998
+Generation 380  -> Average absolute fitness: 80.79999999999998
+Generation 381  -> Average absolute fitness: 80.79999999999998
+Generation 382  -> Average absolute fitness: 67.29999999999998
+Generation 383  -> Average absolute fitness: 71.79999999999998
+Generation 384  -> Average absolute fitness: 71.79999999999998
+Generation 385  -> Average absolute fitness: 89.79999999999998
+Generation 386  -> Average absolute fitness: 67.44000000000001
+Generation 387  -> Average absolute fitness: 103.29999999999998
+Generation 388  -> Average absolute fitness: 107.79999999999998
+Generation 389  -> Average absolute fitness: 97.93999999999998
+Generation 390  -> Average absolute fitness: 85.16
+Generation 391  -> Average absolute fitness: 107.79999999999998
+Generation 392  -> Average absolute fitness: 107.79999999999998
+Generation 393  -> Average absolute fitness: 107.79999999999998
+Generation 394  -> Average absolute fitness: 107.79999999999998
+Generation 395  -> Average absolute fitness: 106.47999999999998
+Generation 396  -> Average absolute fitness: 107.79999999999998
+Generation 397  -> Average absolute fitness: 107.79999999999998
+Generation 398  -> Average absolute fitness: 98.87999999999998
+Generation 399  -> Average absolute fitness: 103.33999999999999
+Generation 400  -> Average absolute fitness: 107.79999999999998
+Generation 401  -> Average absolute fitness: 107.79999999999998
+Generation 402  -> Average absolute fitness: 107.79999999999998
+Generation 403  -> Average absolute fitness: 91.6
+Generation 404  -> Average absolute fitness: 83.4
+Generation 405  -> Average absolute fitness: 94.23999999999998
+Generation 406  -> Average absolute fitness: 84.29999999999998
+Generation 407  -> Average absolute fitness: 64.14
+Generation 408  -> Average absolute fitness: 62.779999999999994
+Generation 409  -> Average absolute fitness: 53.60000000000001
+Generation 410  -> Average absolute fitness: 55.5
+Generation 411  -> Average absolute fitness: 96.78
+Generation 412  -> Average absolute fitness: 93.32000000000002
+Generation 413  -> Average absolute fitness: 69.3
+Generation 414  -> Average absolute fitness: 67.12
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 415  -> Average absolute fitness: 62.52
+Generation 416  -> Average absolute fitness: 91.96
+Generation 417  -> Average absolute fitness: 56.6
+Generation 418  -> Average absolute fitness: 51.0
+Generation 419  -> Average absolute fitness: 107.0
+Generation 420  -> Average absolute fitness: 101.4
+Generation 421  -> Average absolute fitness: 79.17999999999999
+Generation 422  -> Average absolute fitness: 107.08
+Generation 423  -> Average absolute fitness: 62.58
+Generation 424  -> Average absolute fitness: 69.08
+Generation 425  -> Average absolute fitness: 90.6
+Generation 426  -> Average absolute fitness: 90.55999999999999
+Generation 427  -> Average absolute fitness: 84.11999999999999
+Generation 428  -> Average absolute fitness: 75.39999999999999
+Generation 429  -> Average absolute fitness: 81.83999999999999
+Generation 430  -> Average absolute fitness: 62.84000000000001
+Generation 431  -> Average absolute fitness: 98.67999999999999
+Generation 432  -> Average absolute fitness: 101.91999999999999
+Generation 433  -> Average absolute fitness: 62.55999999999998
+Generation 434  -> Average absolute fitness: 95.88
+Generation 435  -> Average absolute fitness: 90.63999999999999
+Generation 436  -> Average absolute fitness: 107.71999999999998
+Generation 437  -> Average absolute fitness: 107.71999999999998
+Generation 438  -> Average absolute fitness: 107.79999999999998
+Generation 439  -> Average absolute fitness: 107.79999999999998
+Generation 440  -> Average absolute fitness: 107.79999999999998
+Generation 441  -> Average absolute fitness: 56.23999999999999
+Generation 442  -> Average absolute fitness: 96.41999999999999
+Generation 443  -> Average absolute fitness: 102.15999999999998
+Generation 444  -> Average absolute fitness: 107.79999999999998
+Generation 445  -> Average absolute fitness: 96.41999999999999
+Generation 446  -> Average absolute fitness: 102.05999999999997
+Generation 447  -> Average absolute fitness: 107.79999999999998
+Generation 448  -> Average absolute fitness: 79.39999999999999
+Generation 449  -> Average absolute fitness: 90.77999999999999
+Generation 450  -> Average absolute fitness: 81.05999999999999
+Generation 451  -> Average absolute fitness: 71.66000000000001
+Generation 452  -> Average absolute fitness: 80.97999999999999
+Generation 453  -> Average absolute fitness: 71.52
+Generation 454  -> Average absolute fitness: 64.32
+Generation 455  -> Average absolute fitness: 55.3
+Generation 456  -> Average absolute fitness: 51.459999999999994
+Generation 457  -> Average absolute fitness: 66.91999999999999
+Generation 458  -> Average absolute fitness: 71.38
+Generation 459  -> Average absolute fitness: 81.23999999999998
+Generation 460  -> Average absolute fitness: 72.32000000000001
+Generation 461  -> Average absolute fitness: 78.14
+Generation 462  -> Average absolute fitness: 78.14
+Generation 463  -> Average absolute fitness: 73.68
+Generation 464  -> Average absolute fitness: 66.5
+Generation 465  -> Average absolute fitness: 37.39999999999999
+Generation 466  -> Average absolute fitness: 43.21999999999999
+Generation 467  -> Average absolute fitness: 44.44
+Generation 468  -> Average absolute fitness: 78.14000000000001
+Generation 469  -> Average absolute fitness: 66.5
+Generation 470  -> Average absolute fitness: 104.13999999999999
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 471  -> Average absolute fitness: 96.82000000000001
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 472  -> Average absolute fitness: 106.57999999999997
+Generation 473  -> Average absolute fitness: 107.79999999999998
+Generation 474  -> Average absolute fitness: 107.79999999999998
+Generation 475  -> Average absolute fitness: 107.79999999999998
+Generation 476  -> Average absolute fitness: 107.79999999999998
+Generation 477  -> Average absolute fitness: 107.79999999999998
+Generation 478  -> Average absolute fitness: 107.79999999999998
+Generation 479  -> Average absolute fitness: 107.79999999999998
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 480  -> Average absolute fitness: 107.79999999999998
+Generation 481  -> Average absolute fitness: 107.79999999999998
+Generation 482  -> Average absolute fitness: 107.79999999999998
+Generation 483  -> Average absolute fitness: 96.4
+Generation 484  -> Average absolute fitness: 103.03999999999999
+Generation 485  -> Average absolute fitness: 107.79999999999998
+Generation 486  -> Average absolute fitness: 87.1
+Generation 487  -> Average absolute fitness: 86.53999999999999
+Generation 488  -> Average absolute fitness: 107.79999999999998
+Generation 489  -> Average absolute fitness: 70.19999999999999
+Generation 490  -> Average absolute fitness: 63.04
+Generation 491  -> Average absolute fitness: 60.8
+Generation 492  -> Average absolute fitness: 70.24
+Generation 493  -> Average absolute fitness: 60.839999999999996
+Generation 494  -> Average absolute fitness: 66.14
+Generation 495  -> Average absolute fitness: 103.09999999999998
+Generation 496  -> Average absolute fitness: 107.79999999999998
+Generation 497  -> Average absolute fitness: 103.13999999999999
+Generation 498  -> Average absolute fitness: 98.39999999999998
+Generation 499  -> Average absolute fitness: 107.79999999999998
+Generation 500  -> Average absolute fitness: 107.79999999999998
+Generation 501  -> Average absolute fitness: 107.79999999999998
+Generation 502  -> Average absolute fitness: 107.79999999999998
+Generation 503  -> Average absolute fitness: 107.79999999999998
+Generation 504  -> Average absolute fitness: 107.79999999999998
+Generation 505  -> Average absolute fitness: 107.79999999999998
+Generation 506  -> Average absolute fitness: 107.83999999999999
+Generation 507  -> Average absolute fitness: 107.9
+Generation 508  -> Average absolute fitness: 97.84
+Generation 509  -> Average absolute fitness: 102.91999999999999
+Generation 510  -> Average absolute fitness: 67.68
+Generation 511  -> Average absolute fitness: 77.68
+Generation 512  -> Average absolute fitness: 81.68
+Generation 513  -> Average absolute fitness: 66.4
+Generation 514  -> Average absolute fitness: 58.56
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 515  -> Average absolute fitness: 63.720000000000006
+Generation 516  -> Average absolute fitness: 102.96
+Generation 517  -> Average absolute fitness: 72.72
+Generation 518  -> Average absolute fitness: 78.08
+Generation 519  -> Average absolute fitness: 57.60000000000001
+Generation 520  -> Average absolute fitness: 57.92
+Generation 521  -> Average absolute fitness: 57.920000000000016
+Generation 522  -> Average absolute fitness: 58.88000000000001
+Generation 523  -> Average absolute fitness: 58.260000000000005
+Generation 524  -> Average absolute fitness: 60.160000000000004
+Generation 525  -> Average absolute fitness: 60.8
+Generation 526  -> Average absolute fitness: 60.8
+Generation 527  -> Average absolute fitness: 60.8
+Generation 528  -> Average absolute fitness: 60.160000000000004
+Generation 529  -> Average absolute fitness: 60.8
+Generation 530  -> Average absolute fitness: 60.8
+Generation 531  -> Average absolute fitness: 60.8
+Generation 532  -> Average absolute fitness: 60.8
+Generation 533  -> Average absolute fitness: 60.8
+Generation 534  -> Average absolute fitness: 60.8
+Generation 535  -> Average absolute fitness: 60.8
+Generation 536  -> Average absolute fitness: 60.8
+Generation 537  -> Average absolute fitness: 58.1
+Generation 538  -> Average absolute fitness: 60.8
+Generation 539  -> Average absolute fitness: 60.8
+Generation 540  -> Average absolute fitness: 60.8
+Generation 541  -> Average absolute fitness: 60.8
+Generation 542  -> Average absolute fitness: 60.8
+Generation 543  -> Average absolute fitness: 60.8
+Generation 544  -> Average absolute fitness: 60.8
+Generation 545  -> Average absolute fitness: 60.8
+Generation 546  -> Average absolute fitness: 60.8
+Generation 547  -> Average absolute fitness: 60.8
+Generation 548  -> Average absolute fitness: 60.8
+Generation 549  -> Average absolute fitness: 60.8
+Generation 550  -> Average absolute fitness: 60.8
+Generation 551  -> Average absolute fitness: 60.8
+Generation 552  -> Average absolute fitness: 60.8
+Generation 553  -> Average absolute fitness: 60.8
+Generation 554  -> Average absolute fitness: 60.8
+Generation 555  -> Average absolute fitness: 70.39999999999999
+Generation 556  -> Average absolute fitness: 60.8
+Generation 557  -> Average absolute fitness: 60.8
+Generation 558  -> Average absolute fitness: 60.85999999999999
+Generation 559  -> Average absolute fitness: 60.8
+Generation 560  -> Average absolute fitness: 60.8
+Generation 561  -> Average absolute fitness: 60.8
+Generation 562  -> Average absolute fitness: 60.8
+Generation 563  -> Average absolute fitness: 60.8
+Generation 564  -> Average absolute fitness: 60.8
+Generation 565  -> Average absolute fitness: 60.8
+Generation 566  -> Average absolute fitness: 60.8
+Generation 567  -> Average absolute fitness: 60.8
+Generation 568  -> Average absolute fitness: 60.8
+Generation 569  -> Average absolute fitness: 61.1
+Generation 570  -> Average absolute fitness: 61.21999999999999
+Generation 571  -> Average absolute fitness: 59.74000000000001
+Generation 572  -> Average absolute fitness: 60.8
+Generation 573  -> Average absolute fitness: 58.67999999999999
+Generation 574  -> Average absolute fitness: 60.8
+Generation 575  -> Average absolute fitness: 60.8
+Generation 576  -> Average absolute fitness: 60.8
+Generation 577  -> Average absolute fitness: 60.8
+Generation 578  -> Average absolute fitness: 60.8
+Generation 579  -> Average absolute fitness: 60.8
+Generation 580  -> Average absolute fitness: 60.8
+Generation 581  -> Average absolute fitness: 60.8
+Generation 582  -> Average absolute fitness: 60.8
+Generation 583  -> Average absolute fitness: 60.8
+Generation 584  -> Average absolute fitness: 60.8
+Generation 585  -> Average absolute fitness: 60.8
+Generation 586  -> Average absolute fitness: 60.8
+Generation 587  -> Average absolute fitness: 60.8
+Generation 588  -> Average absolute fitness: 60.8
+Generation 589  -> Average absolute fitness: 60.8
+Generation 590  -> Average absolute fitness: 60.8
+Generation 591  -> Average absolute fitness: 60.8
+Generation 592  -> Average absolute fitness: 60.8
+Generation 593  -> Average absolute fitness: 60.8
+Generation 594  -> Average absolute fitness: 60.8
+Generation 595  -> Average absolute fitness: 60.8
+Generation 596  -> Average absolute fitness: 60.8
+Generation 597  -> Average absolute fitness: 60.8
+Generation 598  -> Average absolute fitness: 60.8
+Generation 599  -> Average absolute fitness: 60.8
+Generation 600  -> Average absolute fitness: 60.8
+Generation 601  -> Average absolute fitness: 60.8
+Generation 602  -> Average absolute fitness: 60.8
+Generation 603  -> Average absolute fitness: 60.8
+Generation 604  -> Average absolute fitness: 60.8
+Generation 605  -> Average absolute fitness: 60.8
+Generation 606  -> Average absolute fitness: 60.8
+Generation 607  -> Average absolute fitness: 56.660000000000004
+Generation 608  -> Average absolute fitness: 60.8
+Generation 609  -> Average absolute fitness: 60.8
+Generation 610  -> Average absolute fitness: 60.8
+Generation 611  -> Average absolute fitness: 60.8
+Generation 612  -> Average absolute fitness: 60.8
+Generation 613  -> Average absolute fitness: 60.8
+Generation 614  -> Average absolute fitness: 60.8
+Generation 615  -> Average absolute fitness: 60.8
+Generation 616  -> Average absolute fitness: 60.8
+Generation 617  -> Average absolute fitness: 60.8
+Generation 618  -> Average absolute fitness: 60.96
+Generation 619  -> Average absolute fitness: 61.11999999999999
+Generation 620  -> Average absolute fitness: 60.919999999999995
+Generation 621  -> Average absolute fitness: 60.8
+Generation 622  -> Average absolute fitness: 60.8
+Generation 623  -> Average absolute fitness: 60.8
+Generation 624  -> Average absolute fitness: 60.8
+Generation 625  -> Average absolute fitness: 60.8
+Generation 626  -> Average absolute fitness: 60.8
+Generation 627  -> Average absolute fitness: 60.8
+Generation 628  -> Average absolute fitness: 60.8
+Generation 629  -> Average absolute fitness: 60.8
+Generation 630  -> Average absolute fitness: 60.8
+Generation 631  -> Average absolute fitness: 60.8
+Generation 632  -> Average absolute fitness: 60.8
+Generation 633  -> Average absolute fitness: 60.8
+Generation 634  -> Average absolute fitness: 60.8
+Generation 635  -> Average absolute fitness: 60.8
+Generation 636  -> Average absolute fitness: 60.8
+Generation 637  -> Average absolute fitness: 60.8
+Generation 638  -> Average absolute fitness: 60.8
+Generation 639  -> Average absolute fitness: 60.8
+Generation 640  -> Average absolute fitness: 60.8
+Generation 641  -> Average absolute fitness: 60.8
+Generation 642  -> Average absolute fitness: 60.8
+Generation 643  -> Average absolute fitness: 60.8
+Generation 644  -> Average absolute fitness: 55.120000000000005
+Generation 645  -> Average absolute fitness: 53.120000000000005
+Generation 646  -> Average absolute fitness: 51.199999999999996
+Generation 647  -> Average absolute fitness: 51.279999999999994
+Generation 648  -> Average absolute fitness: 52.15999999999999
+Generation 649  -> Average absolute fitness: 51.199999999999996
+Generation 650  -> Average absolute fitness: 51.199999999999996
+Generation 651  -> Average absolute fitness: 51.199999999999996
+Generation 652  -> Average absolute fitness: 59.120000000000005
+Generation 653  -> Average absolute fitness: 53.11999999999999
+Generation 654  -> Average absolute fitness: 53.6
+Generation 655  -> Average absolute fitness: 51.79999999999999
+Generation 656  -> Average absolute fitness: 51.67999999999999
+Generation 657  -> Average absolute fitness: 52.279999999999994
+Generation 658  -> Average absolute fitness: 51.959999999999994
+Generation 659  -> Average absolute fitness: 51.6
+Generation 660  -> Average absolute fitness: 51.79999999999999
+Generation 661  -> Average absolute fitness: 51.919999999999995
+Generation 662  -> Average absolute fitness: 52.279999999999994
+Generation 663  -> Average absolute fitness: 51.32000000000001
+Generation 664  -> Average absolute fitness: 51.67999999999999
+Generation 665  -> Average absolute fitness: 51.31999999999999
+Generation 666  -> Average absolute fitness: 51.44
+Generation 667  -> Average absolute fitness: 51.31999999999999
+Generation 668  -> Average absolute fitness: 51.199999999999996
+Generation 669  -> Average absolute fitness: 51.67999999999999
+Generation 670  -> Average absolute fitness: 51.44
+Generation 671  -> Average absolute fitness: 52.15999999999999
+Generation 672  -> Average absolute fitness: 52.279999999999994
+Generation 673  -> Average absolute fitness: 52.39999999999999
+Generation 674  -> Average absolute fitness: 54.11999999999999
+Generation 675  -> Average absolute fitness: 52.39999999999999
+Generation 676  -> Average absolute fitness: 52.04
+Generation 677  -> Average absolute fitness: 51.55999999999999
+Generation 678  -> Average absolute fitness: 51.199999999999996
+Generation 679  -> Average absolute fitness: 51.279999999999994
+Generation 680  -> Average absolute fitness: 51.08
+Generation 681  -> Average absolute fitness: 51.7
+Generation 682  -> Average absolute fitness: 50.720000000000006
+Generation 683  -> Average absolute fitness: 51.31999999999999
+Generation 684  -> Average absolute fitness: 50.72
+Generation 685  -> Average absolute fitness: 51.459999999999994
+Generation 686  -> Average absolute fitness: 51.379999999999995
+Generation 687  -> Average absolute fitness: 51.260000000000005
+Generation 688  -> Average absolute fitness: 51.25999999999999
+Generation 689  -> Average absolute fitness: 51.3
+Generation 690  -> Average absolute fitness: 51.3
+Generation 691  -> Average absolute fitness: 51.35999999999999
+Generation 692  -> Average absolute fitness: 51.29999999999999
+Generation 693  -> Average absolute fitness: 51.379999999999995
+Generation 694  -> Average absolute fitness: 51.279999999999994
+Generation 695  -> Average absolute fitness: 51.379999999999995
+Generation 696  -> Average absolute fitness: 51.39999999999999
+Generation 697  -> Average absolute fitness: 51.379999999999995
+Generation 698  -> Average absolute fitness: 51.35999999999999
+Generation 699  -> Average absolute fitness: 51.39999999999999
+Generation 700  -> Average absolute fitness: 51.199999999999996
+Generation 701  -> Average absolute fitness: 51.199999999999996
+Generation 702  -> Average absolute fitness: 51.199999999999996
+Generation 703  -> Average absolute fitness: 51.199999999999996
+Generation 704  -> Average absolute fitness: 51.239999999999995
+Generation 705  -> Average absolute fitness: 51.29999999999999
+Generation 706  -> Average absolute fitness: 51.31999999999999
+Generation 707  -> Average absolute fitness: 51.33999999999999
+Generation 708  -> Average absolute fitness: 51.379999999999995
+Generation 709  -> Average absolute fitness: 63.19999999999999
+Generation 710  -> Average absolute fitness: 98.76000000000002
+Generation 711  -> Average absolute fitness: 110.6
+Generation 712  -> Average absolute fitness: 110.6
+Generation 713  -> Average absolute fitness: 98.32000000000001
+Generation 714  -> Average absolute fitness: 63.14000000000001
+Generation 715  -> Average absolute fitness: 98.28
+Generation 716  -> Average absolute fitness: 102.56000000000002
+Generation 717  -> Average absolute fitness: 79.80000000000001
+Generation 718  -> Average absolute fitness: 56.92
+Generation 719  -> Average absolute fitness: 51.199999999999996
+Generation 720  -> Average absolute fitness: 57.05999999999999
+Generation 721  -> Average absolute fitness: 51.339999999999996
+Generation 722  -> Average absolute fitness: 68.46
+Generation 723  -> Average absolute fitness: 62.69999999999999
+Generation 724  -> Average absolute fitness: 51.3
+Generation 725  -> Average absolute fitness: 51.39999999999999
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 726  -> Average absolute fitness: 59.2
+Generation 727  -> Average absolute fitness: 51.379999999999995
+Generation 728  -> Average absolute fitness: 51.33999999999999
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 729  -> Average absolute fitness: 51.31999999999999
+Generation 730  -> Average absolute fitness: 56.39999999999999
+Generation 731  -> Average absolute fitness: 53.31999999999999
+Generation 732  -> Average absolute fitness: 51.39999999999999
+Generation 733  -> Average absolute fitness: 55.379999999999995
+Generation 734  -> Average absolute fitness: 55.379999999999995
+Generation 735  -> Average absolute fitness: 51.46
+Generation 736  -> Average absolute fitness: 51.4
+Generation 737  -> Average absolute fitness: 52.44
+Generation 738  -> Average absolute fitness: 53.69999999999999
+Generation 739  -> Average absolute fitness: 56.519999999999996
+Generation 740  -> Average absolute fitness: 51.21999999999999
+Generation 741  -> Average absolute fitness: 51.29999999999999
+Generation 742  -> Average absolute fitness: 51.21999999999999
+Generation 743  -> Average absolute fitness: 51.279999999999994
+Generation 744  -> Average absolute fitness: 51.379999999999995
+Generation 745  -> Average absolute fitness: 51.379999999999995
+Generation 746  -> Average absolute fitness: 92.84
+Generation 747  -> Average absolute fitness: 92.84
+Generation 748  -> Average absolute fitness: 98.76000000000002
+Generation 749  -> Average absolute fitness: 110.6
+Generation 750  -> Average absolute fitness: 104.67999999999999
+Generation 751  -> Average absolute fitness: 98.52
+Generation 752  -> Average absolute fitness: 92.80000000000001
+Generation 753  -> Average absolute fitness: 87.56
+Generation 754  -> Average absolute fitness: 87.56000000000002
+Generation 755  -> Average absolute fitness: 92.84
+Generation 756  -> Average absolute fitness: 75.08
+Generation 757  -> Average absolute fitness: 51.39999999999999
+Generation 758  -> Average absolute fitness: 51.39999999999999
+Generation 759  -> Average absolute fitness: 51.39999999999999
+Generation 760  -> Average absolute fitness: 51.39999999999999
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 761  -> Average absolute fitness: 51.39999999999999
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 762  -> Average absolute fitness: 53.35999999999999
+Generation 763  -> Average absolute fitness: 60.220000000000006
+Generation 764  -> Average absolute fitness: 59.239999999999995
+Generation 765  -> Average absolute fitness: 54.339999999999996
+Generation 766  -> Average absolute fitness: 51.39999999999999
+Generation 767  -> Average absolute fitness: 51.39999999999999
+Generation 768  -> Average absolute fitness: 51.39999999999999
+Generation 769  -> Average absolute fitness: 57.39999999999999
+Generation 770  -> Average absolute fitness: 56.39999999999999
+Generation 771  -> Average absolute fitness: 57.39999999999999
+Generation 772  -> Average absolute fitness: 55.39999999999999
+Generation 773  -> Average absolute fitness: 59.82000000000001
+Generation 774  -> Average absolute fitness: 58.39999999999999
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 775  -> Average absolute fitness: 59.39999999999999
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 776  -> Average absolute fitness: 55.43999999999998
+Generation 777  -> Average absolute fitness: 54.39999999999999
+Generation 778  -> Average absolute fitness: 59.39999999999999
+Generation 779  -> Average absolute fitness: 58.39999999999999
+Generation 780  -> Average absolute fitness: 54.39999999999999
+Generation 781  -> Average absolute fitness: 52.39999999999999
+Generation 782  -> Average absolute fitness: 51.39999999999999
+ALSA lib pcm.c:8675:(snd_pcm_recover) underrun occurred
+Generation 783  -> Average absolute fitness: 51.39999999999999
+Generation 784  -> Average absolute fitness: 51.39999999999999
+Generation 785  -> Average absolute fitness: 51.39999999999999

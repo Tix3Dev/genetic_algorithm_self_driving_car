@@ -19,11 +19,10 @@ class DNA:
     def key_repr(self, inp):
         return ",".join(str(x) for x in inp)
 
-    def crossover_with(self, other_parent):
+    def crossover_with(self, other_parent, len_divisor):
         swapped_already = []
         
-
-        crossover_len = random.randint(0, self.dna_len)
+        crossover_len = random.randint(0, int(round(self.dna_len / len_divisor, 0)))
         for i in range(crossover_len):
             a = random.randint(0, self.precision)
             b = random.randint(0, self.precision)
@@ -43,7 +42,7 @@ class DNA:
 
     def mutation(self, prob):
         for i in range(self.dna_len):
-            r = random.randint(1, 1/prob)
+            r = random.randint(1, int(round(1/prob, 0)))
             if r == 1:
                 a = random.randint(0, self.precision)
                 b = random.randint(0, self.precision)
@@ -51,4 +50,3 @@ class DNA:
                 inp = [a, b, c]
 
                 self.genes[self.key_repr(inp)] = self.random_steer()
-                print("genes mutated:", i)

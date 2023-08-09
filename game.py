@@ -11,30 +11,31 @@ class Game:
         self.screen = screen
         self.generation_font = pygame.font.SysFont("Arial", 30)
         self.alive_font = pygame.font.SysFont("Arial", 20)
-        self.game_map = pygame.image.load('assets/map2.png').convert()
+        self.game_map = pygame.image.load('assets/map3.png').convert()
         
         self.avrg_abs_fit_vals = []
+        self.best_fitness_vals = []
         self.fig, self.ax = plt.subplots()
         plt.ion()
         plt.tight_layout()
         plt.show()
-
+        
         self.cars = []
         #################################### tweaking mostly in here
         self.popul_size = 10
-        self.first_place_reward = 0.4
+        self.first_place_reward = 5
+        self.longest_reward = 10
         self.mutation_prob = 0.005 # this is not percent
         self.crossover_len_divisor = 30
-        self.elite_ratio_of_popul = 0.4 # this is not percent
-        self.elite_ratio_of_popul_gy = 0.7
+        self.elite_ratio_of_popul = 0.3 # this is not percent
 
         print("##### config that I am adjusting")
         print(self.popul_size)
         print(self.first_place_reward)
+        print(self.longest_reward)
         print(self.mutation_prob)
         print(self.crossover_len_divisor)
         print(self.elite_ratio_of_popul)
-        print(self.elite_ratio_of_popul_gy)
         print("#####")
         #################################### tweaking mostly in here
         self.generation_count = 0
@@ -54,16 +55,17 @@ class Game:
         for i in range(self.popul_size):
             total_fitness_sum += self.cars[i].fitness
         self.avrg_abs_fit_vals.append(total_fitness_sum / self.popul_size)
-
         # -> print stats
         print("Generation", self.generation_count,
               " -> Average absolute fitness:", total_fitness_sum / self.popul_size)
 
         # -> plot stats
         self.ax.step(np.arange(len(self.avrg_abs_fit_vals)),
-                     self.avrg_abs_fit_vals, linewidth=2.5)
+                     self.avrg_abs_fit_vals, linewidth=2.5, color="blue")
+        self.ax.step(np.arange(len(self.best_fitness_vals)),
+                     self.best_fitness_vals, linewidth=2.5, color="red")
         plt.xlabel("Generation")
-        plt.ylabel("Absolute Average Fitness")
+        plt.ylabel("Absolute Average Fitness (blue) | Best Absolute Fitness (red)")
         plt.show(block=False)
         plt.draw()
         plt.pause(0.01)
@@ -93,12 +95,15 @@ class Game:
             elitism_sort_cars = sorted(self.cars, key=lambda x: x.fitness, reverse=True) # idx=0 -> best
             self.cars = elitism_sort_cars
 
-            for car in self.cars:
-                print(car.fitness)
-
-            # first car reward
+            # special rewards
             self.cars[0].fitness += self.first_place_reward
-            max_fitness = self.cars[0].fitness + self.first_place_reward
+
+            if len(self.best_fitness_vals) > 0:
+                if self.cars[0].fitness + self.longest_reward > max(self.best_fitness_vals):
+                    self.cars[0].fitness += self.longest_reward
+
+            max_fitness = self.cars[0].fitness
+            self.best_fitness_vals.append(self.cars[0].fitness)
 
             # stats
             self.graph()
@@ -113,11 +118,9 @@ class Game:
             # select new generation
             for i in range(self.popul_size):
                 # elitism - keep the best few cars (based on ratio of population)
-                if i < self.popul_size * self.elite_ratio_of_popul and not good_year:
-                    self.cars[i] = car(self.screen, self.game_map, self.border_color, self.cars[i].dna)
-                    continue
-                if i < self.popul_size * self.elite_ratio_of_popul_gy and good_year:
-                    self.cars[i] = car(self.screen, self.game_map, self.border_color, self.cars[i].dna)
+                if i < self.popul_size * self.elite_ratio_of_popul:
+                    print("elite\t->fitness:", self.cars[i].fitness)
+                    self.cars[i] = Car(self.screen, self.game_map, self.border_color, self.cars[i].dna)
                     continue
 
                 parent1 = random.choice(self.mating_pool)
@@ -128,7 +131,8 @@ class Game:
                 child_dna = parent1.dna.crossover_with(parent2.dna, self.crossover_len_divisor)
                 child_dna.mutation(self.mutation_prob)
 
-                self.cars[i] = Car(self.screen, self.game_map, self.border_color, child_dna) # TODO: check if this changes car
+                print("normal\t->fitness:", self.cars[i].fitness)
+                self.cars[i] = Car(self.screen, self.game_map, self.border_color, child_dna)
 
             # restart gameplay
             self.generation_count += 1

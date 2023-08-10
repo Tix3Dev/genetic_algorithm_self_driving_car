@@ -4,14 +4,17 @@
 This is a simulation of cars, that learn how to steer (and subsequently drive) through a map (that can be customly drawn). The learning is purely based off the idea of Genetic Algorithms.
 
 # Demonstration
+
 ![](https://github.com/Tix3Dev/genetic_algorithm_self_driving_car/blob/main/README%20stuff/demo.gif)
 
 *(If you are interested in a more high quality GIF, just run the code for yourself and make a PR :D)*
 
 What you can see above are two (not shown in full length) simulations, each of them on another map. By continuously pressing "e" until the game is over, a data **e**xport of the best car is created, including information about the map, the configurations of the GA, and it's DNA, which may be imported later to start learning at a more advanced level.
+
 ![](https://github.com/Tix3Dev/genetic_algorithm_self_driving_car/blob/main/README%20stuff/export.png)
 
 Additionally during the whole simulation, a constantly updating graph will be presented. It shows the Average Absolute Fitness (blue) and the Best Absolute Fitness (red). Note that the spikes in the red plot are due to special rewards when reaching a new peak.
+
 ![](https://github.com/Tix3Dev/genetic_algorithm_self_driving_car/blob/main/README%20stuff/plot.png)
 
 A good configuration (aka good learning behavior) of the GA should result in a curve that keeps increasing, although a plateau is likely (unavoidable at some point). A plateau may be temporary (e.g. when facing a difficult obstacle/part of the map) or absolute (when near perfect driving is achieved and since there is a maximum running time, fitness won't increase anymore).

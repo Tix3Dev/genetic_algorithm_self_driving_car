@@ -26,7 +26,7 @@ There are three sensors (=radars) present in the car. Each sensor is split into 
 
 In every given positioning of the car, the three sensors will have a certain value, which all together may be stored in an array like the following: `[3, 4, 0]`.
 
-Now, the DNA is a dictionary, where the keys are such arrays (only that they are first converted to a string, so for the previous example the key would be `"[3,4,0]"`). The assigned values are in the first generation random, however over time crossovers and mutations will change those values, so that in an active learning environment, the values will approach the optimal value (Genetic Algorithms are basically just nature inspired optimization algorithms).
+Now, the DNA is a dictionary, where the keys are such arrays (only that they are first converted to a string, so for the previous example the key would be `"3,4,0"`). The assigned values are random in the first generation, however over time crossovers and mutations will change those values, so that in an active learning environment, the values will approach the optimal value (Genetic Algorithms are basically just nature inspired optimization algorithms).
 
 Those values can be between *-x* and *x*, where *x* is the maximum steering angle. All values thus represent an "amount of turning the steering wheel".
 

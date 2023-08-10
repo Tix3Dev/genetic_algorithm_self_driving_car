@@ -4,6 +4,7 @@
 This is a simulation of cars, that learn how to steer (and subsequently drive) through a map (that can be customly drawn). The learning is purely based off the idea of Genetic Algorithms.
 
 # Demonstration
+![](https://github.com/Tix3Dev/genetic_algorithm_self_driving_car/blob/main/README stuff/demo.gif)
 
 # Helpful resources
 - https://towardsdatascience.com/introduction-to-genetic-algorithms-including-example-code-e396e98d8bf3
